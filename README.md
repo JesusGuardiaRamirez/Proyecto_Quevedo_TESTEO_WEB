@@ -76,7 +76,7 @@ De igual manera, para reforzar el análisis, relizamos los siguientes gráficos 
       from bayes import *
 
 *******************************************************************
-##FUNCION PARA PODER VER LOS GRAFICOS:
+## FUNCION PARA PODER VER LOS GRAFICOS:
 
 
       def plot(betas, names, linf=0, lsup=0.006):
@@ -117,7 +117,7 @@ De igual manera, para reforzar el análisis, relizamos los siguientes gráficos 
 
 POR ESTO DARÍAMOS POR FINALIZADO EL PROYECTO CON UI UX - PASANDOLE LOS DATOS DE QUE MODELO DE PAGINA WEB FUNCIONARÍA MAS EN SU CASO. 
 
-#CONCLUSIONES  :bar_chart:  :
+# CONCLUSIONES        :bar_chart:  :
 
 
 
