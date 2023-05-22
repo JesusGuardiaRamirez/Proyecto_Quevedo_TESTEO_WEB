@@ -80,4 +80,50 @@ Análisis de cesta: a.Nuestra tasa de uso de cesta es del 10% --> El 10% de las 
     
     
     
-De igual manera, para reforzar el análisis, relizamos los siguientes gráficos:
+De igual manera, para reforzar el análisis, relizamos los siguientes gráficos con las siguientes librerias para hacer el análisis. 
+
+      import pandas as pd
+      from bayes import *
+
+*******************************************************************
+##FUNCION PARA PODER VER LOS GRAFICOS:
+
+
+      def plot(betas, names, linf=0, lsup=0.006):
+          x=np.linspace(linf, lsup, 100)
+          for f, n in zip(betas, names):
+              y=f.pdf(x)
+              y_pico=pico(f.args[0], f.args[1])
+              y_var=f.var()
+              plt.plot(x, y, label='{}, tasa de conv: {:.6f} $\pm$ {:.10f}'.format(n, y_pico, y_var))
+              plt.yticks([])
+      plt.legend()
+      plt.show();
+
+**********************************************************************
+
+# TIEMPO
+
+      plot([beta_control_tiempo, beta_test_tiempo], ['Control tiempo', 'Test tiempo'], linf=0, lsup=1)
+
+![Captura de pantalla 2023-05-22 a las 18 23 48](https://github.com/Ironhack-Data-Madrid-Abril-2023/6.3-lab_two_sample_hypothesis_test/assets/125477881/c73bea4b-7835-4b6d-8f95-e926f4f351e3)
+
+# BUSCADOR
+
+      plot([beta_control_bus, beta_test_bus], ['Control Bus', 'Test Bus'], linf=0, lsup=1)
+
+![Captura de pantalla 2023-05-22 a las 18 25 00](https://github.com/Ironhack-Data-Madrid-Abril-2023/6.3-lab_two_sample_hypothesis_test/assets/125477881/263ca20c-d31c-4996-9c1b-777a814ab134)
+
+
+# CESTA
+
+
+      plot([beta_test_cesta, beta_control_cesta], ['Control cesta', 'Test cesta'], linf=0, lsup=1)
+
+![Captura de pantalla 2023-05-22 a las 18 25 30](https://github.com/Ironhack-Data-Madrid-Abril-2023/6.3-lab_two_sample_hypothesis_test/assets/125477881/8d2ea5f0-4046-4910-ac70-7dc95e81fd1f)
+
+
+
+POR ESTO DARÍAMOS POR FINALIZADO EL PROYECTO CON UI UX - PASANDOLE LOS DATOS DE QUE MODELO DE PAGINA WEB FUNCIONARÍA MAS EN SU CASO. 
+
+![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
