@@ -69,5 +69,15 @@ Análisis de cesta: a.Nuestra tasa de uso de cesta es del 10% --> El 10% de las 
 
 
 
-:bar_chart:#CONCLUSIONES:
+#CONCLUSIONES  :bar_chart:  :
 
+
+
+    1.  Con los cambios realizados en el test b, se reduce el tiempo en un 11% con una probabilidad del 69.44%
+    2.  Con los cambios realizados en el test b, se reduce el numero de veces que usan el buscador en un 54% con una probabilidad del 99.96%
+    3.  Con los cambios realizados en el test b, se reduce el numero de veces que usan el buscador en un 76% con una probabilidad del 99.98%
+    
+    
+    
+    
+De igual manera, para reforzar el análisis, relizamos los siguientes gráficos:
