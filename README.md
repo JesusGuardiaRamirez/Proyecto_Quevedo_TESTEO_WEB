@@ -40,7 +40,7 @@ Con estos puntos, obtenemos los siguientes datos:
 
 ******************************************
 
-#A
+# A
 
 ![Captura de pantalla 2023-05-22 a las 18 16 44](https://github.com/Ironhack-Data-Madrid-Abril-2023/6.3-lab_two_sample_hypothesis_test/assets/125477881/712f9cb5-85b1-4355-8833-2c8ce803a0cd)
 
@@ -55,7 +55,7 @@ Una vez obtuvimos estos datos, el siguiente paso era realizar los cambios en la 
 
 ******************************************
 
-#B
+# B
 
 ![Captura de pantalla 2023-05-22 a las 18 20 07](https://github.com/Ironhack-Data-Madrid-Abril-2023/6.3-lab_two_sample_hypothesis_test/assets/125477881/c3fb1591-3288-4d75-8d68-468c5dcce602)
 
