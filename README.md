@@ -34,5 +34,40 @@ Para realizarlo medimos diferentes factores.
   3.  :crystal_ball: Si una vez que encontraba el libro usaba la pestaña de "Añadir a la cesta" o la de "comprar ya"
   4.  :crystal_ball: El tiempo lo medíamos en términos horarios (min:seg) y el resto de bariables en términos binarios(1 si lo usaba o 0 si no lo usaba)
 
-Con estos punto, obtenemos los siguientes datos:
+
+
+Con estos puntos, obtenemos los siguientes datos:
+
+******************************************
+
+#A
+
+![Captura de pantalla 2023-05-22 a las 18 16 44](https://github.com/Ironhack-Data-Madrid-Abril-2023/6.3-lab_two_sample_hypothesis_test/assets/125477881/712f9cb5-85b1-4355-8833-2c8ce803a0cd)
+
+
+Análisis de tiempo: a.Sobre la media(que es 0:42 seg), tenemos 17 que convierten antes de la media y 13 que tardan más de la media en convertir. b. Nuestra tasa de conversión es de 56% --> El 56% de los sujetos que realizarn la compra tardaron menos que la media.
+
+Análisis de buscador: a.Nuestra tasa de uso de buscador es del 76% --> El 76% de las personas usó el buscador
+
+Análisis de cesta: a.Nuestra tasa de uso de cesta es del 53% --> El 53% de las peersonas usó la cesta frente al "comprar ya"
+
+Una vez obtuvimos estos datos, el siguiente paso era realizar los cambios en la página y volver a salir a realizar test a otras personas diferentes para no contaminar la muestra.
+
+******************************************
+
+#B
+
+![Captura de pantalla 2023-05-22 a las 18 20 07](https://github.com/Ironhack-Data-Madrid-Abril-2023/6.3-lab_two_sample_hypothesis_test/assets/125477881/c3fb1591-3288-4d75-8d68-468c5dcce602)
+
+Una vez tubimos los datos, relizamos el segundo análisis, obteniendo los siguientes resultados:
+
+Análisis de tiempo: a.Sobre la media(que es 0:46 seg), tenemos 15 que convierten antes de la media y 15 que tardan más de la media en convertir. b. Nuestra tasa de conversión es de 50% --> El 50% de los sujetos que realizarn la compra tardaron menos que la media.
+
+Análisis de buscador: a.Nuestra tasa de uso de buscador es del 33% --> El 33% de las personas usó el buscador
+
+Análisis de cesta: a.Nuestra tasa de uso de cesta es del 10% --> El 10% de las peersonas usó la cesta frente al "comprar ya"
+
+
+
+:bar_chart:#CONCLUSIONES:
 
