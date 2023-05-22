@@ -68,16 +68,6 @@ Análisis de buscador: a.Nuestra tasa de uso de buscador es del 33% --> El 33% d
 Análisis de cesta: a.Nuestra tasa de uso de cesta es del 10% --> El 10% de las peersonas usó la cesta frente al "comprar ya"
 
 
-
-#CONCLUSIONES  :bar_chart:  :
-
-
-
-    1.  Con los cambios realizados en el test b, se reduce el tiempo en un 11% con una probabilidad del 69.44%
-    2.  Con los cambios realizados en el test b, se reduce el numero de veces que usan el buscador en un 54% con una probabilidad del 99.96%
-    3.  Con los cambios realizados en el test b, se reduce el numero de veces que usan el buscador en un 76% con una probabilidad del 99.98%
-    
-    
     
     
 De igual manera, para reforzar el análisis, relizamos los siguientes gráficos con las siguientes librerias para hacer el análisis. 
@@ -124,6 +114,22 @@ De igual manera, para reforzar el análisis, relizamos los siguientes gráficos 
 
 
 
+
 POR ESTO DARÍAMOS POR FINALIZADO EL PROYECTO CON UI UX - PASANDOLE LOS DATOS DE QUE MODELO DE PAGINA WEB FUNCIONARÍA MAS EN SU CASO. 
+
+#CONCLUSIONES  :bar_chart:  :
+
+
+
+
+
+   1.  Con los cambios realizados en el test b, se reduce el tiempo en un 11% con una probabilidad del 69.44%
+   2.  Con los cambios realizados en el test b, se reduce el numero de veces que usan el buscador en un 54% con una probabilidad del 99.96%
+   3.  Con los cambios realizados en el test b, se reduce el numero de veces que usan el buscador en un 76% con una probabilidad del 99.98%
+    
+ 
+ 
+ 
+ 
 
 ![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
